@@ -13,8 +13,8 @@ for line in calorie_list:
     else:
         elf_calorie_total += int(line)
 
-elf_one = sorted(elf_totals)[-1]
-elf_two = sorted(elf_totals)[-2]
-elf_three = sorted(elf_totals)[-3]
+elf_one = sorted(elf_totals)[-1] # Part 1 Solution
+elf_two = sorted(elf_totals)[-2] # Part 2 Solution
+elf_three = sorted(elf_totals)[-3] # Part 2 Solution
 
 max_three_elves = elf_one + elf_two + elf_three
