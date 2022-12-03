@@ -63,7 +63,7 @@ def get_total_score(player_one, player_two):
 
 
 def main():
-    f = open("strategy_guide.txt", "r")
+    f = open("./input/day2-input.txt", "r")
     rounds = f.readlines()
     total_score = 0
     outcome_score = 0
@@ -76,8 +76,6 @@ def main():
 
     print(total_score) 
     print(outcome_score)
-
-
 
 if __name__ == '__main__':
     main()

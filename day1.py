@@ -1,6 +1,4 @@
-# Open the file
-
-f = open("calories.txt", "r")
+f = open("./input/day1-input.txt", "r")
 calorie_list = f.readlines()
 
 elf_totals = []
