@@ -71,8 +71,8 @@ def main():
     for i in range(len(rounds)):
         p1 = rounds[i][0]
         p2 = rounds[i][2]
-        total_score += get_total_score(p1, p2) # part 1
-        outcome_score += get_outcome_score(p1, p2) # part 2
+        total_score += get_total_score(p1, p2) # Part 1 Solution
+        outcome_score += get_outcome_score(p1, p2) # Part 2 Solution
 
     print(total_score) 
     print(outcome_score)
